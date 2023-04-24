@@ -1,0 +1,224 @@
+.header{
+    height: 100px;
+    background-image: linear-gradient(0, red);
+    background-color: rgb(246, 223, 160);
+    padding: 0;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav-list{
+  list-style: none;
+    padding-left: 0;
+    margin: 4px 0 0 0 ;
+}
+.header__nav-item{
+    margin: 0 8px;
+    position: relative;
+    margin-top: 4px;
+}
+.header__nav-item,
+.header__nav-item-link {
+    display: inline-block;
+    font-size: 1.3rem;
+    color: rgb(97, 97, 249);
+    text-decoration: none;
+    font-weight: 300;
+}
+.header__nav-item,
+.header__nav-item-link,
+.header__nav-icon {
+    display: inline flex;
+    align-items: center;
+    min-height: 26px;
+}
+.header__nav-item:hover,
+.header__nav-item-link:hover,
+.header__nav-item-link:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.header-navbar-item--strong{
+    font-weight: 500;
+}
+.header-navbar-item--gach::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1.5px;
+    height: 18px;
+    background-color: rgb(250, 235, 195);
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -6px;
+
+}
+body{
+    margin: 0;
+}
+.no-poiter{
+    cursor: text;
+    color: rgb(97, 97, 249);
+    
+}
+.header__nav-icon-link{
+    list-style: none;
+    color: rgb(97, 97, 249);
+    
+}
+.header__nav-icon{
+    font-size: 1.5rem;
+    margin:0 4px;
+}
+.header__with-search{
+    height:var(--header-with-seacher-height) ;
+    display: flex;
+    align-items: center;
+}
+.header__search{
+    background-color: var(--white-color);
+    height: 30px;
+    flex: 1;
+    border-radius: 2px;
+}
+.header__logo{
+    width: 200px;
+    text-align: center;
+}
+.header__logo-img{
+    width: 60px;
+}
+.header__cart{
+    width: 150px;
+    text-align: center;
+}
+.header__cart-icon{
+    color: var(--white-color);
+    font-size: 2.5rem;
+}
+.header__search-item {
+    border: 0;
+    height: 30px;
+    width: 100%;
+    outline: none;
+    padding: 0 12px;
+}
+.header__danhmuc {
+    background-color: rgb(250, 235, 195);
+    height: 30px;
+    margin-top: -10px;
+    
+   
+}
+.header-list-item {
+    list-style: none;
+
+}
+.header-list-link {
+    text-decoration: none;
+    margin: 0 70px;
+    font-size: 1.5rem;
+}
+.header-list {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+    
+}
+.header-list-child {
+    width: 200px;
+    background-color: black;
+    height: 200px;
+    /* margin-left: 114px; */
+     display: none; 
+    border-radius: 5px;
+    position: absolute;
+   
+}
+.header-list-item-child {
+   list-style: none;
+   padding: 8px 10px; 
+   margin-left: -40px;
+  
+}
+.header-list-link-child {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--white-color);
+}
+.header-list-item:hover .header-list-child {
+    display: block;
+}
+.header-list-item-child:hover {
+    border-bottom: 1px solid red;
+}
+.header_title {
+    width: 300px;
+    height: 40px;
+    background-color: #6ea001;
+    margin-top: 29px;
+    text-align: center;
+    padding: 2px 0;
+}
+.menu__list {
+    display: flex;
+    padding: 10px 20px;
+    
+}
+.menu-item {
+    list-style: none;
+    cursor: pointer;
+    
+}
+.menu {
+    width: 1200px;
+    height: 305px;
+    background-color: #6ea001;
+}
+.price {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+   margin-left: 20px;
+ 
+}
+.btn-buy {
+    cursor: pointer;
+    margin-left: 8px;
+    width: 85px;
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.name {
+    margin: 6px 0px;
+    font-size: 1.4rem;
+}
+.menu-item1 {
+    list-style: none;
+    cursor: pointer;
+}
+.menu-item2 {
+    list-style: none;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.menu-item3 {
+    list-style: none;
+    cursor: pointer;
+    margin-left: 8px;
+   
+}
+.name1 {
+    margin: 6px 18px;
+    font-size: 1.4rem;
+}
+.name2 {
+    margin: 6px 13px;
+    font-size: 1.4rem;
+}
+.name3 {
+    margin: 6px 26px;
+    font-size: 1.4rem;
+}
